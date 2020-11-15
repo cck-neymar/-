@@ -1,0 +1,18 @@
+#include<stdio.h>
+main()
+{ float a,b,c,d=b/1200;
+  printf("Enter amout of loan:\n");
+  scanf("%f",&a);
+  printf("Enter interest rate:\n");
+  scanf("%f",&b);
+  printf("Enter monthly payment:\n");
+  scanf("%f",&c);
+  a=a-c+a*d;
+  printf("Balance remaining after first payment: $%f\n",a);
+  a=a-c+a*d;
+  printf("Balance remaining after second payment: $%f\n",a);
+  a=a-c+a*d;
+  printf("Balance remaining after third payment: $%f\n",a);
+  return 0;
+  
+  }
